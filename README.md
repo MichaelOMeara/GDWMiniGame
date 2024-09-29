@@ -1,2 +1,3 @@
 # GDWMiniGame
-Game Design Workshop MiniGame Flappy Bird Clone
+Game Design Workshop Minigame Flappy Bird Clone
+
