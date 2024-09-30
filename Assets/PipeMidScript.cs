@@ -14,7 +14,7 @@ public class PipeMidScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -23,6 +23,6 @@ public class PipeMidScript : MonoBehaviour
         {
             logic.AddScore(1);
         }
-        
+
     }
 }
