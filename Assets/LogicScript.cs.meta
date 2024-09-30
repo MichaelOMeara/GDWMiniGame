@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: a8bd6653dc2e7b84a8d8b79356ab5c61
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - Score: {instanceID: 0}
+  - gameOverScreen: {fileID: 3609278197327273993, guid: af36229f980004549a6b061c6d44a794, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
