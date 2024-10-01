@@ -897,8 +897,8 @@ GameObject:
   - component: {fileID: 2095513461}
   - component: {fileID: 2095513460}
   - component: {fileID: 2095513462}
-  - component: {fileID: 2095513464}
   - component: {fileID: 2095513463}
+  - component: {fileID: 2095513464}
   m_Layer: 3
   m_Name: Bird
   m_TagString: Untagged
@@ -947,7 +947,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7423c7e077807f4429bf10b4933282e5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a473c197e50502b4aa272d715e392cba, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -967,8 +967,8 @@ Transform:
   m_GameObject: {fileID: 2095513459}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 3, y: 3, z: 3}
+  m_LocalPosition: {x: 13, y: -25, z: 0}
+  m_LocalScale: {x: 1.7, y: 1.9, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -985,7 +985,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 4
+  m_Mass: 5
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 6
@@ -1013,11 +1013,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myRigidBody: {fileID: 2095513462}
-  FlapStrength: 30
+  FlapStrength: 35
   logic: {fileID: 0}
   AliveBird: 1
---- !u!58 &2095513464
-CircleCollider2D:
+--- !u!70 &2095513464
+CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1048,9 +1048,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.016228318, y: 0.09737325}
-  serializedVersion: 2
-  m_Radius: 1.5063509
+  m_Offset: {x: -6.5633607, y: 13.228226}
+  m_Size: {x: 5.7147365, y: 4.031552}
+  m_Direction: 1
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
